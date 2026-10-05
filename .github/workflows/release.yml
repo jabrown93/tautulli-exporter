@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  # Weekly roll-up of the fix(deps) commits that the shared preset suppresses
+  # Weekly roll-up of the chore(deps) commits that .releaserc.js suppresses
   # on push, promoted into a single patch release (RELEASE_DEPS).
   schedule:
     - cron: '0 9 * * 1' # Mondays 09:00 UTC — weekly dependency roll-up
